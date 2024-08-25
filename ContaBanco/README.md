@@ -1,18 +1,26 @@
-## Getting Started
+# Simulando Uma Conta Bancária Através Do Terminal/Console
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Projeto realizado no módulo de <b>Sintaxe Básica com Java<b>, com o professor <a href="https://github.com/glysns">Gleyson Sampaio</a> no <a href="[https://www.dio.me/bootcamp/coding-future-gft-desenvolvimento-java-com-ia](https://www.dio.me/bootcamp/coding-the-future-claro-java-spring-boot)">Bootcamp Claro - Java com Spring Boot</a>, da <a href="https://www.dio.me/">DIO em parceria com a Claro</a>.
+<br><br>
+### Proposta
+<ul>
+  <li>Crie o projeto ContaBanco que receberá dados via terminal contendo as características de conta em banco conforme atributos.</li>  
+  <li>Dentro do projeto, crie a classe ContaTerminal.java para realizar toda a codificação do nosso programa.</li>  
+  <li>Permita que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo: "Por favor, digite o número da Agência !"</li>  
+  <li>Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem: "Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".</li>  
+</ul>
+<br>
 
-## Folder Structure
+### 🚀Como eu já estava um pouco mais avançado e para dar um pouco mais de emoção, fiz algumas alterações no meu projeto:
+<ul>
+  <li>✅ O usuário **NÃO** digita um número qualquer de agência, mas sim recebe uma lista predefinida das agências disponíveis e a partir desse número, usando um switch case, nossa classe principal busca o número correto da agência; </li>
+  <li>✅ O usuário **NÃO** digita um número qualquer de agência, mas sim o sistema faz a geração interna desse número, seguindo o padrão que pre-estabelecemos.</li>
+</ul>
+<br>
 
-The workspace contains two folders by default, where:
+### Resultado
+![terminal](https://github.com/bmattosrs/dio-trilha-java-basico/blob/main/ContaBanco/src/clarobank-cli.jpg))
+<br><br>
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Como utilizar o código?
+A partir do arquivo ContaTerminal.java interaja com a classe ContaBanco. 
